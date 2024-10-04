@@ -7,3 +7,9 @@ Implementing Microsoft Entra ID (Azure AD) based Single Sign-On (SSO) in a React
 - Creating the Express Backend Application
 - Integrating Frontend and Backend with Microsoft Entra ID
 - Deploying and Testing the Application
+
+## .ENV VARIABLES
+- Replace `VITE_CLIENT_ID` with your React SPA App Registration Client ID.
+- Replace `VITE_TENANT_ID` with your Azure AD tenant ID.
+- Replace `VITE_EXPRESS_API_CLIENT_ID` with your Express API App Registration Client ID.
+
