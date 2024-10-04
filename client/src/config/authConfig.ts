@@ -27,3 +27,5 @@ export const msalConfig: Configuration = {
 export const loginRequest = {
   scopes: ["openid", "profile", "User.Read",`api://${EXPRESS_API_CLIENT_ID}/access_as_user`], 
 };
+
+
